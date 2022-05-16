@@ -17,7 +17,7 @@ export default function Wolox() {
     <SecondContent/>
     <h2 className='benefits' id='benefitsDev'>Entre los beneficios que ofrecemos se encuentran <span style={{color: '#00A9E5'}}> ;) </span></h2>
     <ThirdContent />
-    <div className="thankyou">
+    <div className="thankyou" >
     <ThankYou />
     </div>
     <Footer />
