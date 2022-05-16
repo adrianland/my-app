@@ -1,0 +1,25 @@
+.thirdContent {
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    align-content: space-around;
+    justify-items: center;
+    align-items: end;
+}
+
+.cardBenefits{
+	display: grid;
+    justify-items: center;
+}
+
+@media screen and (max-width: 500px){
+
+    .thirdContent {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 5px;
+        justify-content: center;
+        align-content: space-around;
+        margin-right: 32%;
+    }
+}

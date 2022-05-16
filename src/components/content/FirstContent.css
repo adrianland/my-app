@@ -1,0 +1,32 @@
+.firstContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.welcome {
+    justify-content: center;
+    align-items: center;
+    margin-left: 13%;
+}
+
+.txtWelcome {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .firstContent {
+        display: grid;
+        grid-template-columns: max-content;
+        gap: 0px;
+    }
+
+    .txtFirstContent {
+        width: min-content;
+        margin-right: 70%;
+    }
+}

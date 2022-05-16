@@ -1,0 +1,35 @@
+.footerContent{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px;
+    justify-content: space-between;
+    align-content: center;
+    align-items: baseline;
+    justify-items: center;
+}
+
+.btnShowInfo{
+	color: white;
+    background: transparent;
+    border: 2px solid #0099CC;
+	background-color: #008CBA;
+    border-radius: 22px;
+    width: 125px;
+    height: 39px;
+}
+@media screen and (max-width: 500px){
+
+    .footerContent {
+        display: grid;
+        grid-template-rows: 1fr;
+        gap: 0px;
+        align-items: end;
+        justify-items: center;
+        justify-content: inherit;
+        align-content: space-evenly;
+        margin-right: 30%;
+    }
+    .complete{
+        width: min-content;
+    }
+}
